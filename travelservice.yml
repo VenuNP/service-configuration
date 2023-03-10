@@ -1,0 +1,25 @@
+service.name: travelservice
+---
+spring:
+  profiles: development
+
+welcome.msg: Welcome To Development Environment
+
+---
+spring:
+  profiles: qa
+
+welcome.msg: Welcome To QA Environment
+
+---
+spring:
+  profiles: preProd
+
+welcome.msg: Welcome To preProd Environment
+
+
+---
+spring:
+  profiles: prod
+
+welcome.msg: Welcome To prod Environment
